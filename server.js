@@ -6,6 +6,7 @@ mobileApp.tables.add('post'); // Create a table for 'Book' with default settings
 mobileApp.tables.add('Users'); //cc
 mobileApp.tables.add('client');
 mobileApp.tables.add('fridge');
+mobileApp.tables.add('Order');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
